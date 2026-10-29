@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="05065269788a4c40ab2582e667a4e815" Name="Diagram1" ZoomLevel="96">
+        <EntityTypeShape EntityType="CRMDBModel.Address" Width="1.5" PointX="5.75" PointY="1" />
+        <EntityTypeShape EntityType="CRMDBModel.AuditTrail" Width="1.5" PointX="0.75" PointY="4.25" />
+        <EntityTypeShape EntityType="CRMDBModel.Bank" Width="1.5" PointX="7.75" PointY="1" />
+        <EntityTypeShape EntityType="CRMDBModel.Broker" Width="1.5" PointX="7.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRMDBModel.City" Width="1.5" PointX="2.75" PointY="1" />
+        <EntityTypeShape EntityType="CRMDBModel.Client" Width="1.5" PointX="7.75" PointY="9" />
+        <EntityTypeShape EntityType="CRMDBModel.ClientType" Width="1.5" PointX="9.75" PointY="1" />
+        <EntityTypeShape EntityType="CRMDBModel.Invoice" Width="1.5" PointX="9.75" PointY="4" />
+        <EntityTypeShape EntityType="CRMDBModel.InvoiceLineItem" Width="1.5" PointX="5.25" PointY="7.25" />
+        <EntityTypeShape EntityType="CRMDBModel.Item" Width="1.5" PointX="3" PointY="8.375" />
+        <EntityTypeShape EntityType="CRMDBModel.Market" Width="1.5" PointX="9.75" PointY="11" />
+        <EntityTypeShape EntityType="CRMDBModel.PersonalInfo" Width="1.5" PointX="11.75" PointY="1" />
+        <EntityTypeShape EntityType="CRMDBModel.PhoneNumber" Width="1.5" PointX="0.75" PointY="12" />
+        <EntityTypeShape EntityType="CRMDBModel.Receipt" Width="1.5" PointX="11.75" PointY="4" />
+        <EntityTypeShape EntityType="CRMDBModel.ReceiptAllocation" Width="1.5" PointX="11.75" PointY="10" />
+        <EntityTypeShape EntityType="CRMDBModel.State" Width="1.5" PointX="2.75" PointY="13" />
+        <EntityTypeShape EntityType="CRMDBModel.User" Width="1.5" PointX="3" PointY="4.125" />
+        <EntityTypeShape EntityType="CRMDBModel.UserType" Width="1.5" PointX="0.75" PointY="0.75" />
+        <AssociationConnector Association="CRMDBModel.FK_Item_AuditTrail" />
+        <AssociationConnector Association="CRMDBModel.FK_User_AuditTrail" />
+        <AssociationConnector Association="CRMDBModel.FK_InvoiceLineItem_Item" />
+        <AssociationConnector Association="CRMDBModel.FK_User_UserType" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
